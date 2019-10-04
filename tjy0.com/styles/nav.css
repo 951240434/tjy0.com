@@ -1,0 +1,57 @@
+.Nav{
+	float:left;
+	margin:0 auto;
+	height: auto;
+	width:100%;
+	text-align: center;
+	font-size: 0;
+	background-color: #584b4f;
+	/*border:1px solid white;*/
+}
+.Nav ul li{
+	float:left!important;
+	list-style: none; 
+}
+.Nav-commonElement{
+	float:right;
+	display:inline-block;
+	text-align: center;
+	width: 150px;
+	height:70px;
+	color: antiquewhite;
+  	font-size: 24px;
+  	line-height: 70px;
+  	border-bottom:4px solid #584b4f;
+  	background-color: #584b4f;
+}
+.Nav-commonElement:hover{
+	background-color: #fff;
+	color: #000!important;/*base.css中设置了!important，所以要再加一个*/
+	transition-duration: 500ms;
+	border-bottom: 4px solid yellow;
+}
+.nav-Exercise{
+	float:left;
+	background-color: #000;
+	color: #fff;
+	border-bottom: 4px solid #ff0;
+}
+.nav-Exercise:hover{
+	color: #000;
+	background-color: #fff;
+	border-bottom:4px solid #ff0;
+	transition-duration: 500ms;
+}
+.nav-Dromcross{
+	float:left;
+	display:inline-block;
+	font-size: 40px;
+	line-height: 70px;
+	font-weight: 800;
+	font-style: italic;
+}
+.nav-Dromcross:hover{
+	color: #fff!important;
+	transition-duration: 500ms;
+	text-decoration: none;
+}
